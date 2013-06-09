@@ -1,0 +1,10 @@
+{
+  "name": "angular-backstrech",
+  "version": "0.0.1",
+  "main": "angular-backstretch.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
