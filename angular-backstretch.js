@@ -27,7 +27,7 @@
                     if (attr.ngBackstretch === '' || typeof attr.ngBackstretch === 'undefined')
                         throw new Error('ngBackstretch | You have not declared an image to be stretched.')
 
-                    if (element.context.toString().match(/HTMLBodyElement/gi).length)
+                    if (element.context.toString().match(/HTMLBodyElement/gi))
                         return $.backstretch(attr.ngBackstretch);
 
                     $(element).backstretch(attr.ngBackstretch);
